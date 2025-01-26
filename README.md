@@ -1,2 +1,0 @@
-# codesoft
-codesoft internship 
