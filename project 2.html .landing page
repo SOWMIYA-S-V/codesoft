@@ -1,0 +1,184 @@
+index.html
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Creative Landing Page</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <h1>How to do an the Web Development course?</h1>
+    <p>Earn Web Development and Kickstart Your Career in Tech!
+Welcome to the ultimate web development course designed for beginners
+and aspiring developers! This course equips you with the essential 
+skills to build stunning websites and web applications from scratch.
+
+You’ll start with the basics of HTML and CSS, learning how to structure
+and style web pages. Then, dive into more advanced topics like JavaScript
+, responsive design, and modern web frameworks.
+
+Whether you want to create a personal portfolio,
+launch your own projects, or begin a professional career in web development
+, this course provides a comprehensive foundation 
+to achieve your goals.</p>
+  </header>
+
+  <!-- Main Sections -->
+  <main>
+    <!-- Section 1: Introduction -->
+    <section class="section intro">
+      <h2>Why to choose this course?</h2>
+      <p>--Beginner-friendly content, perfect for anyone with no 
+      prior experience.
+--Hands-on projects to practice your skills.
+--Learn from experienced instructors who simplify complex concepts.
+--Build real-world websites and gain confidence in your abilities..</p>
+    </section>
+
+    <!-- Section 2: Features in Columns -->
+    <section class="section features">
+      <h2>Key Features of our course</h2>
+      <div class="columns">
+        <div class="column">
+          <h3>Certificate of Completion</h3>
+          <p>Earn a certificate to boost your resume and 
+          demonstrate your expertise.</p>
+        </div>
+        <div class="column">
+          <h3>Self-Paced Learning and Beginner-Friendly Content</h3>
+          <p>Flexible schedules allow you to learn at your own pace,
+          anytime, anywhere.</p>
+        </div>
+        <div class="column">
+          <h3>Modern Tools and Frameworks and Hands-On Projects</h3>
+          <p>Learn the latest web technologies like React, Bootstrap,
+          and version control with Git.And Work on real-world projects
+          like landing pages, portfolios, blogs, and responsive websites.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 3: Call to Action -->
+    <section class="section cta">
+      <h2>"Start Your Web Development Journey Today!"</h2>
+      <p>✅  Learn at your own pace
+ ✅      Hands-on projects and challenges
+✅ Access to expert guidance
+✅ Earn a certificate upon completion</p>
+      <button class="cta-button">Enroll Now</button>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>&copy; 2025 for this course. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
+
+style.css
+
+/* General Styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f9f9f9;
+}
+
+h1, h2, h3 {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto 1.5rem;
+}
+
+button {
+  display: block;
+  margin: 1rem auto;
+  padding: 0.75rem 1.5rem;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* Header */
+.header {
+  background-color: #4CAF50;
+  color: white;
+  padding: 2rem;
+  text-align: center;
+}
+
+/* Section Styles */
+.section {
+  padding: 2rem;
+  background-color: white;
+  margin: 1rem auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.features {
+  background-color: #f4f4f4;
+}
+
+.columns {
+  display: flex;
+  justify-content: space-around;
+  gap: 1rem;
+  margin-top: 2rem;
+  flex-wrap: wrap;
+}
+
+.column {
+  background-color: white;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 30%;
+  min-width: 250px;
+  text-align: center;
+}
+
+/* Call to Action */
+.cta {
+  background-color: #007BFF;
+  color: white;
+  padding: 2rem;
+  text-align: center;
+}
+
+.cta-button {
+  background-color: #FFD700;
+  color: #333;
+  font-weight: bold;
+}
+
+.cta-button:hover {
+  background-color: #FFC107;
+}
+
+/* Footer */
+.footer {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
